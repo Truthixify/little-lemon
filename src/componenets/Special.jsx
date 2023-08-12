@@ -8,13 +8,13 @@ const Special = ({ special }) => {
         <img src={dishImage} alt="" />
       </header>
       <main>
-        <div className="flex-lg">
+        <div className="flex-lg section-title">
           <b>{title}</b>
           <b className="special-price">{price}</b>
         </div>
         <p>{content}</p>
       </main>
-      <footer>
+      <footer className='section-title'>
         Order a delivery @
       </footer>
     </div>

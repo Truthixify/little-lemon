@@ -26,11 +26,11 @@ const CustomersSay = () => {
 
   return (
     <div className='home-customer-say'>
-      <h1 className='center'>Testimonials</h1>
+      <h1 className='center display-64px'>Testimonials</h1>
       <div className="home-customer-say_ratings flex-lg">
         {
           ratings.map(rating => (
-            <Rating rating={rating} />
+            <Rating rating={rating} key={crypto.randomUUID()} />
           ))
         }
       </div>

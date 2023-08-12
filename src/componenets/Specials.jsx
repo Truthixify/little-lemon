@@ -28,7 +28,7 @@ const Specials = () => {
   return (
     <div className='home-specials'>
       <div className="flex-lg home-special_info">
-        <h1>This week's specials</h1>
+        <h1 className='display-64px'>This week's specials</h1>
         <button className="btn btn--primary">Online Menu</button>
       </div>
       <div className="flex-lg">

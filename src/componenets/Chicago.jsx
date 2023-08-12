@@ -7,9 +7,9 @@ const Chicago = () => {
   return (
     <div className='home-chicago flex-lg'>
       <div className="flex-md home-chicago_info">
-        <h1>Little Lemon</h1>
-        <h3>Chicago</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta cupiditate quibusdam similique minima facere vel quisquam harum impedit, perferendis laborum alias quae sed nobis at omnis eveniet a earum itaque officia doloremque. Saepe laborum non blanditiis quae fugiat libero aspernatur voluptatum, doloribus tempore laboriosam dicta, voluptatem autem, molestias tenetur omnis!</p>
+        <h1 className='display-64px'>Little Lemon</h1>
+        <h3 className='regular-40px'>Chicago</h3>
+        <p className='lead-18px'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta cupiditate quibusdam similique minima facere vel quisquam harum impedit, perferendis laborum alias quae sed nobis at omnis eveniet a earum itaque</p>
       </div>
       <div className="home-chicago_image flex-sm">
         <div className="flex-lg chicago_imageA">

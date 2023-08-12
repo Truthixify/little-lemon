@@ -20,6 +20,7 @@ img {
 
 a {
   text-decoration: none;
+  color: var(--text-dark);
 }
 
 ul {
@@ -63,8 +64,9 @@ ul {
   border: none;
   padding: 0 20px;
   border-radius: 16px;
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Karla", sans-serif;
 }
 
 .btn--dark {
@@ -81,8 +83,65 @@ ul {
   text-align: center;
 }
 
+.display-64px {
+  font-family: 'Markazi Text', serif;
+  font-weight: 500;
+  font-size: 64px;
+}
+
+.regular-40px {
+  font-family: 'Markazi Text', serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.lead-18px {
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.section-title {
+  font-family: "Karla", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.section-cat {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.card-title {
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.paragraph {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.highlight {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
 .navbar {
   padding: 0 10%;
+}
+
+.navbar a {
+  color: var(--text-dark);
+  font-size: 20px;
+}
+
+.home > div {
+  margin: 50px 0;
 }
 
 .home > div, .home > header {
@@ -91,8 +150,8 @@ ul {
 
 .home-header {
   background-color: var(--bg-green);
-  margin: 10px 0 200px 0;
   position: relative;
+  margin-bottom: 150px;
 }
 
 .home-header * {
@@ -159,7 +218,6 @@ ul {
 }
 
 .home-customer-say {
-  margin: 50px 0;
   padding: 50px 20px !important;
   background: var(--text-gray);
   color: var(--text-dark);
@@ -173,7 +231,7 @@ ul {
   flex-direction: column;
   align-items: flex-start;
   background-color: var(--text-white);
-  height: 150px;
+  min-height: 150px;
   padding: 20px 10px;
 }
 
@@ -213,7 +271,7 @@ ul {
 }
 
 .footer {
-  padding: 0 10%;
+  padding: 10vh 10%;
   background-color: var(--text-gray);
 }
 

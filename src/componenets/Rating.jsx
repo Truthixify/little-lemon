@@ -4,13 +4,13 @@ const Rating = ({ rating }) => {
   const { userImage, username } = rating
 
   return (
-    <div className="flex-xs rating">
+    <div className="flex-xs rating paragraph">
       <p>Rating</p>
       <div className="flex-md">
         <img src={userImage} alt="User Rating" />
-        <b>{username}</b>
+        <b className='paragraph'>{username}</b>
       </div>
-      <b>User Karma</b>
+      <b className='paragraph'>User Karma</b>
     </div>
   )
 }
