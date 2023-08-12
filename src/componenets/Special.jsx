@@ -1,5 +1,7 @@
 import React from 'react'
 
+import deliverImage from '../assets/deliver.png'
+
 const Special = ({ special }) => {
   const { dishImage, title, price, content } = special
   return (
@@ -15,7 +17,10 @@ const Special = ({ special }) => {
         <p>{content}</p>
       </main>
       <footer className='section-title'>
-        Order a delivery @
+        <div className='flex-lg'>
+          <p>Order a delivery</p>
+          <img src={deliverImage} alt="" />
+        </div>
       </footer>
     </div>
   )
