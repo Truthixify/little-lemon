@@ -1,0 +1,27 @@
+.specials {
+
+  &__info button {
+    margin-top: 0.75rem;
+  }
+  
+  @media (min-width: map-get($breakpoints, "md")) {
+    &__info {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
+
+.special {
+  header {
+    width: 100%;
+    height: 150px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

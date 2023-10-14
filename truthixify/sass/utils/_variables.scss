@@ -1,0 +1,30 @@
+//color pallete
+$colors: (
+  "yellow": #F4CE14,
+  "green": #495E47,
+  "orange": #EE9972,
+  "peach": #FBDABB,
+  "light-gray": #EDEFEE,
+  "dark-gray": #333333,
+  "black": #000,
+  "white": #fff,
+);
+
+// spacing
+$base-padding: 0.75rem !default;
+$base-margin: 0.75rem !default;
+
+// borders
+$base-border-thickness: 1px !default;
+$base-border-radius: 8px !default;
+
+// box-shadow
+$base-box-shadow: 1px 3px 5px rgba(0,0,0,0.1) !default;
+
+// font sizes
+$base-font-size: 1rem;
+$font-size-xs: 16pt !default;
+$font-size-sm: 18pt !default;
+$font-size-lg: 20pt !default;
+$font-size-xl: 40pt !default;
+$font-size-xxl: 64pt !default;

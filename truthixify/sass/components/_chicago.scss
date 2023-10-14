@@ -1,0 +1,17 @@
+.chicago {
+  overflow-x: hidden;
+
+  &__images {
+    width: 75%;
+    max-width: 300px;
+    align-self: center;
+
+    img {
+      width: 100%;
+    }
+
+    &_b {
+      transform: translate(50%, -50%);
+    }
+  }
+}

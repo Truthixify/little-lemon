@@ -1,0 +1,17 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  justify-content: space-evenly;
+
+  &__label {
+    @include font("Karla", $font-size-sm, normal);
+  }
+
+  &__input, &__select {
+    height: 40px;
+    padding: 0 20px;
+    width: 100%;
+  }
+
+}

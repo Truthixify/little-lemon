@@ -1,0 +1,50 @@
+@use "sass:math";
+
+$card-color: #000 !default;
+$card-bg-color: #fff !default;
+
+$card-header-color: #000 !default;
+$card-header-bg-color: #fff !default;
+
+$card-body-color: #000 !default;
+$card-body-bg-color: #fff !default;
+
+$card-footer-color: #000 !default;
+$card-footer-bg-color: #fff !default;
+
+.card {
+  display: block;
+  padding: $base-padding;
+  border: $base-border-thickness solid #ddd;
+  box-shadow: $base-box-shadow;
+  border-radius: math.div($base-border-radius, 4);
+
+  .card-title {
+    font-size: $font-size-lg;
+    padding-bottom: $base-padding;
+    font-weight: bold;
+  }
+
+  .card-body {
+    font-size: $base-font-size;
+
+    a {
+      text-decoration: underline;
+    }
+  }
+}
+
+.card-header {
+  background-color: $card-header-bg-color;
+  color: $card-header-color;
+}
+
+.card-body {
+  background-color: $card-body-bg-color;
+  color: $card-body-color;
+}
+
+.card-footer {
+  background-color: $card-footer-bg-color;
+  color: $card-footer-color;
+}

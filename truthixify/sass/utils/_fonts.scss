@@ -1,0 +1,53 @@
+@mixin font-face($family, $src) {
+  @font-face {
+    font-family: $family;
+    src: url($src);
+  }
+}
+
+@include font-face("Markazi", 'https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap');
+
+@include font-face("Karla", 'https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+
+@mixin font($fam, $size, $weight) {
+  font-family: $fam;
+  font-size: $size;
+  font-weight: $weight;
+}
+
+.display-64 {
+  @include font("Markazi", $font-size-xxl, 500);
+}
+
+.regular-40 {
+  @include font("Markazi", $font-size-xl, normal)
+}
+
+.regular-18 {
+  @include font("Markazi", $font-size-sm, normal)
+}
+
+.lead-18 {
+  @include font("Karla", $font-size-sm, normal);
+}
+
+.section-20 {
+  @include font("Karla", $font-size-lg, bolder);
+}
+
+.section-16 {
+  @include font("Karla", $font-size-xs, bolder);
+}
+
+.card-18 {
+  @include font("Karla", $font-size-sm, bold);
+}
+
+.paragraph-16 {
+  @include font("Karla", $font-size-xs, normal);
+}
+
+.highlight-16 {
+  @include font("Karla", $font-size-xs, 500);
+}

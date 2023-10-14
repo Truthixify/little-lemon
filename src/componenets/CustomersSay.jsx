@@ -1,6 +1,6 @@
 import React from 'react'
 
-import userImage from '../assets/lemon dessert.jpg'
+import userImage from '../assets/images/lemon dessert.jpg'
 import Rating from './Rating'
 
 const CustomersSay = () => {
@@ -25,9 +25,9 @@ const CustomersSay = () => {
   ]
 
   return (
-    <div className='home-customer-say'>
-      <h1 className='center display-64px'>Testimonials</h1>
-      <div className="home-customer-say_ratings flex-lg">
+    <div className='bg-light-gray mt-5 mb-5 pt-3 pb-3 pl-3 pr-3'>
+      <h1 className='center display-64'>Testimonials</h1>
+      <div className="row gap-1">
         {
           ratings.map(rating => (
             <Rating rating={rating} key={crypto.randomUUID()} />

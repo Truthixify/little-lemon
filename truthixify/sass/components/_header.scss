@@ -1,0 +1,22 @@
+.header {
+  position: relative;
+
+  div {
+    padding: $base-padding;
+  }
+  
+  @media (min-width: map-get($breakpoints, "md")) {
+    & {
+      padding: $base-padding;
+      margin: 150px 0;
+    }
+
+    & img {
+      position: absolute;
+      right: $base-padding;
+      bottom: -100px;
+      height: 100%;
+      border-radius: $base-border-radius * 2;
+    }
+  }
+}

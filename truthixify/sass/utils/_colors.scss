@@ -1,0 +1,16 @@
+@each $k, $v in $colors {
+  .text-#{$k} {
+    color: $v;
+  }
+
+  .text-hover-#{$k} {
+    &:hover {
+      color: $v;
+    }
+  }
+
+  .bg-#{$k} {
+    background-color: $v;
+  }
+
+}

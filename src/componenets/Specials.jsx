@@ -1,7 +1,7 @@
 import React from 'react'
-import greekSalad from '../assets/greek salad.jpg'
-import bruchetta from '../assets/bruchetta.svg'
-import lemmonDessert from '../assets/lemon dessert.jpg'
+import greekSalad from '../assets/images/greek salad.jpg'
+import bruchetta from '../assets/images/bruchetta.svg'
+import lemmonDessert from '../assets/images/lemon dessert.jpg'
 import Special from './Special'
 
 const Specials = () => {
@@ -26,12 +26,12 @@ const Specials = () => {
     }
   ]
   return (
-    <div className='home-specials'>
-      <div className="flex-lg home-special_info">
-        <h1 className='display-64px'>This week's specials</h1>
-        <button className="btn btn--primary">Online Menu</button>
+    <div className='specials pl-3 pr-3'>
+      <div className="specials__info mb-3">
+        <h1 className='display-64'>This week's specials</h1>
+        <button className="btn-yellow text-dark-gray">Online Menu</button>
       </div>
-      <div className="flex-lg">
+      <div className="row gap-1">
         { specials.map(special => (
           <Special special={special} key={crypto.randomUUID()} />
         )) }
